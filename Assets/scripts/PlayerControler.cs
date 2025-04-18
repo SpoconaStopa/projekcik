@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move = MoveAction.ReadValue<Vector2>();
-        Debug.Log(move);
         if(move.x < 0)
         {
             m_SpriteRenderer.flipX = true;
